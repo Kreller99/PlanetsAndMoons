@@ -4,6 +4,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class MainTest {
     Orbital e = new Planet("Planet", "Earth", "Sun", "5.972E24", 6371, 149600000);
+    Orbital m = new Moon("Moon", "Moon", e.getName(), "7.348E22", 1737, 384400);
+
     @Test
     void testEarthObject() {
 
@@ -17,12 +19,17 @@ class MainTest {
 
     @Test
     void testMoonObject(){
-        Orbital m = new Moon("Moon", "Moon", e.getName(), "7.348E22", 1737, 384400);
+
         assertEquals("Moon", m.getType());
         assertEquals("Moon", m.getName());
         assertEquals(m.getOrbit(), e.getName());
         assertEquals("7.348E22", m.getMass());
         assertEquals(1737, m.getSizeInRadius());
         assertEquals(384400, m.getDistanceToOrbitKM());
+    }
+
+    @Test
+    void moonsofplanets() {
+        if(m.orbit.contains(e.getName()))
     }
 }

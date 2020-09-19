@@ -5,4 +5,8 @@ public class Main {
         Orbital moon = new Moon("Moon", "Moon", earth.getName(), "7.348E22", 1737, 384400);
         System.out.println(moon);
     }
+
+    public void moonsofplanets(){
+
+    }
 }
