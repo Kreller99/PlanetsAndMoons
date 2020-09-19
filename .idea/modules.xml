@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PlanetsAndMoons.iml" filepath="$PROJECT_DIR$/PlanetsAndMoons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mmkm/mmkm.iml" filepath="$PROJECT_DIR$/mmkm/mmkm.iml" />
+    </modules>
+  </component>
+</project>
